@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+       <editor
+           name="TOML Editor"
+           icon="icons/sample.png"
+           extensions="toml"
+           contributorClass="org.eclipse.ui.editors.text.TextEditorActionContributor"
+           class="io.github.darealturtywurty.tomleditor.TomlEditor"
+           id="io.github.darealturtywurty.tomleditor">
+       </editor>
+   </extension>
+</plugin>
